@@ -20,7 +20,7 @@ if not GOOGLE_API_KEY:
 
 # Initialize Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash-exp')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # GitHub API headers
 headers = {"Accept": "application/vnd.github+json"}
